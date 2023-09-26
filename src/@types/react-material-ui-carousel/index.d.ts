@@ -62,7 +62,8 @@ export interface CarouselProps
     fullHeightHover?: boolean,
 
     /** Used to customize the div surrounding the nav `IconButtons`. Use this to position the buttons onto, below, outside, e.t.c. the carousel. */
-    navButtonsWrapperProps?: CarouselNavProps,
+    nextNavButtonWrapperProps?: CarouselNavProps,
+    prevNavButtonWrapperProps?: CarouselNavProps,
 
     /** Used to customize the actual nav `IconButton`s */
     navButtonsProps?: CarouselNavProps,
